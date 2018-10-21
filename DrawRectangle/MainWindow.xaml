@@ -1,0 +1,10 @@
+﻿<Window x:Class="DrawRectangle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <!-- 描画キャンバス -->
+        <Canvas x:Name="drawCanvas" Background="Transparent" MouseDown="drawCanvas_MouseDown"
+                MouseMove="drawCanvas_MouseMove" MouseUp="drawCanvas_MouseUp" />
+    </Grid>
+</Window>

@@ -39,7 +39,7 @@ namespace DrawRectangle
                 StrokeThickness = 1
             };
             Canvas.SetLeft(this.currentRect, clickPoint.X);
-            Canvas.SetTop(this.currentRect, clickPoint.X);
+            Canvas.SetTop(this.currentRect, clickPoint.Y);
 
             // オブジェクトをキャンバスに追加
             this.drawCanvas.Children.Add(this.currentRect);
